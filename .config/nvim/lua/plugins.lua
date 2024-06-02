@@ -16,5 +16,7 @@ Plug('nvim-telescope/telescope-fzf-native.nvim', { ['do'] = 'make' })
 Plug('godlygeek/tabular')
 -- Highlighting of hexadecimal colors
 Plug('ap/vim-css-color')
+-- Treesitter
+Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 vim.call('plug#end')
 
