@@ -1,5 +1,6 @@
 # dotfiles
 ## Neovim
+My Neovim configuration with LSP (language server protocol) servers for Python, C++ and TypeScript.
 ### Installation
 Linux (dnf):
 ```
