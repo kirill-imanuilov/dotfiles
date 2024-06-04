@@ -5,7 +5,7 @@ My Neovim configuration with LSP (language server protocol) servers for Python, 
 Linux (dnf):
 ```
 sudo dnf install neovim npm clang-tools-extra fzf ripgrep
-sudo npm install -g pyright typescript typescript-language-server
+sudo npm install -g npm pyright typescript typescript-language-server
 ```
 
 Put [nvim](https://github.com/kirill-imanuilov/dotfiles/tree/main/.config/nvim) in the `~/.config/` folder.
