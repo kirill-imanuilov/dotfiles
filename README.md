@@ -2,16 +2,16 @@
 ## Neovim
 My Neovim configuration with LSP (language server protocol) servers for Python, C++, TypeScript and Lua.
 ### Installation (Linux)
-DNF:
-
-```
-sudo dnf install neovim npm clang-tools-extra fzf ripgrep
-```
-
 APT:
 ```
 sudo apt update
 sudo apt install neovim npm clangd fzf ripgrep
+```
+
+DNF:
+
+```
+sudo dnf install neovim npm clang-tools-extra fzf ripgrep
 ```
 
 ```
