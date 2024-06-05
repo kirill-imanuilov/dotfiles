@@ -8,6 +8,12 @@ DNF:
 sudo dnf install neovim npm clang-tools-extra fzf ripgrep
 ```
 
+APT:
+```
+sudo apt update
+sudo apt install neovim npm clangd fzf ripgrep
+```
+
 ```
 sudo npm install -g npm pyright typescript typescript-language-server
 ```
