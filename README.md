@@ -16,7 +16,7 @@ Add Homebrew to the PATH:
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/
 ```
 
-Install LSP server for Lua:
+Install [LSP server for Lua](https://github.com/LuaLS/lua-language-server):
 
 ```
 brew install lua-language-server
