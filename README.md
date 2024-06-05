@@ -1,10 +1,14 @@
 # dotfiles
 ## Neovim
 My Neovim configuration with LSP (language server protocol) servers for Python, C++, TypeScript and Lua.
-### Installation
-Linux (dnf):
+### Installation (Linux)
+DNF:
+
 ```
 sudo dnf install neovim npm clang-tools-extra fzf ripgrep
+```
+
+```
 sudo npm install -g npm pyright typescript typescript-language-server
 ```
 
