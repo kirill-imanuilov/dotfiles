@@ -123,6 +123,8 @@ for _, lsp in ipairs(servers) do
 end
 -- LSP for TypeScript
 require('lspconfig').tsserver.setup{}
+-- LSP for Lua
+require'lspconfig'.lua_ls.setup{}
 --------------------Telescope---------------------------------------------------
 -- Mappings
 vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>', {noremap = true})
