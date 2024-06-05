@@ -20,6 +20,8 @@ vim.cmd('autocmd filetype javascript setlocal ts=2 sts=2 sw=2')
 vim.cmd('autocmd filetype javascriptreact setlocal ts=2 sts=2 sw=2')
 vim.cmd('autocmd filetype html setlocal ts=2 sts=2 sw=2')
 vim.cmd('autocmd filetype css setlocal ts=2 sts=2 sw=2')
+
+vim.cmd('colorscheme gruvbox')
 --------------------Auto-complete-----------------------------------------------
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
